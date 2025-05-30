@@ -36,4 +36,48 @@ _(Hosted on Netlify — fast, responsive, and ready for the world)_
 ---
 
 ## 📁 Folder Structure
+vibe-check-quiz/
+├── public/ # index.html and static assets
+├── src/
+│ ├── components/ # Screens
+│ │ ├── WelcomeScreen.jsx
+│ │ ├── QuizScreen.jsx
+│ │ └── ResultScreen.jsx
+│ ├── App.jsx # Main component + logic
+│ ├── index.js # Entry point
+│ └── index.css # Tailwind + global styles
+├── tailwind.config.js # Tailwind setup
+├── postcss.config.js # PostCSS plugins
+├── package.json # Project config & scripts
+└── README.md # This file
 
+### 📦 Getting Started
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/janvi-04/Vibe-Check-Quiz.git
+cd Vibe-Check-Quiz
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the app locally
+
+```bash
+npm start
+```
+
+Visit in browser: http://localhost:3000
+
+4. Build for production
+
+```bash
+npm run build
+```
+
+This creates a `build/` folder with optimized production assets.
